@@ -1,0 +1,240 @@
+.S_header{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 145px;
+}
+.S_header .S_header_area{
+    width: 100%;
+    height: 100%;
+    background-image: url(/public/images/Service_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 106px;
+    padding-left: 168px;
+    padding-right: 35%;
+}
+.S_header .S_header_area .Main_title h1 {
+    width: 826px;
+    font-family: S-CoreDream-6;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.shin_btn{
+    margin-top: 41px;
+    width: 125px;
+    height: 38px;
+    border-radius: 19px;
+    background-color: #ffb837;
+    text-align: center;
+    line-height: 38px;
+}
+.shin_btn:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.shin_btn:hover span{
+    color: #000;
+}
+.shin_btn span{
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #17161a;
+}
+.S_fir_sec{
+    width: 100%;
+}
+.S_fir_sec_area{
+    display: table;
+    margin: 0 auto;
+}
+.S_fir_sec_area .S_txt{
+    margin-left: 88px;
+    margin-bottom: 48px;
+}
+.S_fir_sec_area .S_txt h1 {
+    font-family: S-CoreDream-6;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 14px;
+}
+.S_fir_sec_area .S_txt p {
+    font-family: Pretendard;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.G_title h1{
+    margin-top: 106px;
+    font-family: S-CoreDream-6;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin-bottom: 106px;
+}
+.G_img img{
+    width: 100%;
+}
+@media screen and (max-width:1280px) {
+    .S_img img{
+        display: table;
+        margin: 0 auto;
+        width: 960px;
+    } 
+    .S_header .S_header_area{
+        padding-left: 100px;
+    }
+    .S_header .S_header_area .Main_title h1{
+        font-size: 40px;
+        line-height: 1.5;
+        margin-bottom: 36px;
+    }
+}
+@media screen and (max-width:960px){
+    .S_img img{
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .S_header .S_header_area{
+        padding-top: 133px;
+        padding-left: 80px;
+        background-image: url(/public/images/Service960.png);
+        background-size: cover;
+    }
+
+    .S_header .S_header_area .Main_title h1{
+        width: 480px;
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 36px;
+    }
+    .S_header .S_header_area .shin_btn{
+        width: 106px;
+        height: 32px;
+        border-radius: 19px;
+        background-color: #ffb837;
+        text-align: center;
+        line-height: 32px;
+        display: table;
+        margin: 0 auto;
+    }
+    .S_header .S_header_area .shin_btn span{
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.07;
+        letter-spacing: normal;
+        text-align: center;
+        color: #17161a;
+        vertical-align: middle;
+    }
+    .S_fir_sec_area .S_txt h1 {
+        font-family: S-CoreDream-6;
+        font-size: 33px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-bottom: 14px;
+    }
+    .S_fir_sec_area .S_txt p {
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    .G_title h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: S-CoreDream-6;
+        font-size: 33px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .S_header .S_header_area{
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 0;
+    }
+    .S_header .S_header_area .Main_title h1{
+        width: 100%;
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 36px;
+    }
+    .S_fir_sec_area .S_txt h1 {
+        font-family: S-CoreDream-6;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-bottom: 14px;
+    }
+    .S_fir_sec_area .S_txt{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .G_title h1{
+        font-family: S-CoreDream-6;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+}

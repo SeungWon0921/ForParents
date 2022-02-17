@@ -1,0 +1,750 @@
+.Company {
+    width: 100%;
+    height: 300px;
+    background-image: url(/public/images/Company_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.C_Container {
+    display: block;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Ceo {
+    display: flex;
+}
+.Ceo img{
+    width: 446px;
+    object-fit: cover;
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 160px;
+}
+.Ceo_txt{
+    position: relative;
+}
+.CEO_NAME{
+    display: flex;
+    margin-top: 160px;
+    margin-left: 550px;
+    overflow: hidden;
+}
+.CEO_NAME h1{
+    font-size: 50px;
+}
+.CEO_NAME p{
+    margin-left: 13px;
+    line-height: 83px;
+    font-family: S-CoreDream6;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.CEO_T{
+    padding: 50px 10%;
+    background-color: #f8f8f8;
+}
+.CEO_T p {
+    opacity: 0.8;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-left: 430px;
+    margin-bottom: 20px;
+}
+.CEO_T p:nth-child(3) {
+    margin-bottom: 40px;
+}
+.CEO_T p.end{
+    opacity: 0.8;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+    font-size: 18px;
+}
+span.mit {
+    font-weight: bold;
+    background: linear-gradient(to top, #F9C973 40%, transparent 60%);
+}
+
+.C_team .text_area{
+    margin-top: 74px;
+    margin-left: 150px;
+    margin-bottom: 31px;
+}
+.C_team h1{
+    margin-top: 90px;
+    font-family: S-CoreDream-6;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 15px;
+}
+.C_team .text_area p{
+    width: 667px;
+    box-sizing: border-box;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.C_team .team_list{
+    margin: 0 50px;
+}
+.C_team .team_list .team_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.C_team .team_list .team_ul li{
+    width: 266px;
+    height: 398.6px;
+}
+.C_team .team_list .team_ul li .img_area{
+    margin-bottom: 12px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/public/images/1440_CEO.png);
+    background-size: cover;
+}
+.C_team .team_list .team_ul li+li .img_area{
+    background-image: url(/public/images/1440_CCO.png);
+}
+.C_team .team_list .team_ul li+li+li .img_area{
+    background-image: url(/public/images/1440_CSO.png);
+}
+.C_team .team_list .team_ul li+li+li+li .img_area{
+    background-image: url(/public/images/1440_COO.png);
+}
+.C_team .team_list .team_ul li span:first-child{
+    font-weight: bold;
+}
+.C_logo .text_area{
+    margin-left: 150px;
+    width: 680px;
+}
+.C_logo h1{
+    margin-top: 100px;
+    font-family: S-CoreDream-6;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 15px;
+}
+.C_logo span{
+    box-sizing: border-box;
+    font-family: Pretendard;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.C_logo .img_area{
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 117px;
+}
+.Ga_chi{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+}
+.Ga_chi .title {
+    font-family: S-CoreDream-6;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 55px;
+}
+.Ga_chi_wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
+.Ga_chi_wrap_m{
+    display: none;
+}
+.Ga_chi_ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 78px;
+}
+
+.Ga_chi_ul li{
+    width: 214px;
+    height: 214px;
+    border-radius: 50%;
+    background-color: #ffb837;
+    padding: 75px 0;
+}
+.Ga_chi_ul li+li{
+    background-color: #424895;
+}
+.Ga_chi_ul li+li h1{
+    color: #fafafa;
+}
+.Ga_chi_ul li h1+h1{
+    font-size: 20px;
+}
+.Ga_chi_ul li+li+li{
+    background-color: #dbdcdc;
+    color: #000;
+}
+.Ga_chi_ul li+li+li h1{
+    color: #000;
+}
+.Ga_chi_ul li h1{
+    font-family: Pretendard;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+.Ga_chi_ul_d{
+    display: flex;
+    justify-content: space-between
+}
+.Ga_chi_ul_d li {
+    width: 350px;
+    margin-top: 30px;
+}
+.Ga_chi_ul_d li p{
+        font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+.C_960_img {
+    display: none;
+}
+@media screen and (max-width: 1280px) {
+    .C_Container {
+        display: block;
+        width: 960px;
+        margin: 0 auto;
+    }
+    .Ceo img{
+        width: 326px;
+        object-fit: cover;
+        position: absolute;
+        padding-left: 40px;
+        padding-top: 120px;
+    }
+    .CEO_NAME{
+        display: flex;
+        margin-top: 120px;
+        margin-left: 365px;
+        overflow: hidden;
+    }
+    .CEO_NAME h1{
+        font-size: 36px;
+    }
+    .CEO_NAME p{
+        margin-left: 13px;
+        line-height: 58px;
+        font-family: S-CoreDream6;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+    }
+    .CEO_T{
+        padding: 20px 7%;
+        background-color: #f8f8f8;
+    }
+    .CEO_T p {
+        opacity: 0.8;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-left: 300px;
+        margin-bottom: 15px;
+    }
+    .CEO_T p:nth-child(3) {
+        margin-bottom: 25px;
+    }
+    .CEO_T p.end{
+        opacity: 0.8;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: right;
+        color: #000;
+    }
+    .C_team .text_area{
+        margin-top: 72px;
+        margin-left: 100px;
+        margin-bottom: 36px;
+    }
+    .C_team h1{
+        font-family: S-CoreDream-6;
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-bottom: 14px;
+    }
+    .C_team .text_area p{
+        box-sizing: border-box;
+        font-family: Pretendard;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    .C_team .team_list{
+        margin: 0 30px;
+    }
+    .C_team .team_list .team_ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .C_team .team_list .team_ul li{
+        width: 206px;
+        height: 308px;
+        margin-bottom: 100px;
+    }
+    .C_team .team_list .team_ul li .img_area{
+        margin-bottom: 13px;
+        width: 100%;
+        height: 100%;
+    }
+    .C_logo .text_area{
+        width: 690px;
+        margin-left: 100px;
+    }
+    .C_logo h1{
+        margin-top: 75px;
+        font-family: S-CoreDream-6;
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-bottom: 15px;
+    }
+    .C_logo span{
+        box-sizing: border-box;
+        font-family: Pretendard;
+        font-size: 18.9px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    .C_logo .img_area{
+        text-align: center;
+        margin-top: 98px;
+        margin-bottom: 117px;
+    }
+    .Ga_chi_wrap{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .Ga_chi{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 73px;
+        padding-bottom: 96px;
+        background-color: #f8f8f8;
+    }
+    .Ga_chi .title {
+        font-family: S-CoreDream-6;
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        color: #000;
+        margin-bottom: 34px;
+    }
+    .Ga_chi_ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 78px;
+    }
+    
+    .Ga_chi_ul li{
+        width: 168px;
+        height: 168px;
+        border-radius: 50%;
+        background-color: #ffb837;
+        padding: 61px 0;
+    }
+    .Ga_chi_ul li+li{
+        background-color: #424895;
+        color: #fafafa;
+    }
+    .Ga_chi_ul li+li+li{
+        background-color: #dbdcdc;
+        color: #000;
+    }
+    .Ga_chi_ul li h1{
+        font-family: Pretendard;
+        font-size: 22px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+    .Ga_chi_ul li h1+h1{
+        font-size: 14px;
+    }
+    
+    .Ga_chi_ul_d{
+        display: flex;
+    }
+
+    .Ga_chi_ul_d li {
+        width: 356px;
+        margin: 30px auto;
+    }
+    .Ga_chi_ul_d li p{
+            font-family: Pretendard;
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.47;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .C_Container {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Ceo img{
+        display: none;
+    }
+    .CEO_NAME{
+        display: none;
+    }
+    .CEO_T{
+        margin-top: 250px;
+        padding: 12.5% 10.2%;
+        background-color: #fff;
+    }
+    span.mit {
+        font-weight: bold;
+        background: linear-gradient(to top, #F9C973 40%, transparent 60%);
+    }
+    .CEO_T p {
+        opacity: 0.8;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .CEO_T p:nth-child(3) {
+        margin-bottom: 60px;
+    }
+    .C_team .team_list{
+        margin: 0;
+    }
+    .C_960_img{
+        margin-top: 72px;
+        position: absolute;
+        display: block;
+        margin-left: 10%;
+        width: 80%;
+        height:300px;
+        background-image: url(/public/images/960_CEOT.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .C_team h1{
+        margin-top: 0px;
+    }
+    .C_team .team_list .team_ul{
+        flex-wrap: wrap;
+    }
+    .C_team .text_area{
+        margin-top: 50px;
+        margin-left: 10.2%;
+        margin-bottom: 36px;
+    }
+    .C_team .team_list .team_ul li{
+        width: 230px;
+        height: 190px;
+        margin-bottom: 100px;
+    }
+    .C_team .team_list .team_ul li .img_area{
+        margin-bottom: 12px;
+        width: 100%;
+        height: 100%;
+        background-image: url(/public/images/960_CEO.png);
+        background-size: contain;
+    }
+    .C_team .team_list .team_ul li+li .img_area{
+        background-image: url(/public/images/960_CCO.png);
+    }
+    .C_team .team_list .team_ul li+li+li .img_area{
+        background-image: url(/public/images/960_CSO.png);
+    }
+    .C_team .team_list .team_ul li+li+li+li .img_area{
+        background-image: url(/public/images/960_COO.png);
+    }
+    .C_team .text_area p{
+        width: 410px;
+        font-size: 16px;
+    }
+    .C_team .team_list {
+        margin: 0 auto;
+    }
+    .C_team .team_list .team_ul{
+        margin: 0 auto;
+        width: 480px;
+        justify-content:center;
+    }
+    .C_logo .img_area{
+        width: 440px;
+        margin-top: 75px;
+        margin-bottom: 88px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .C_logo .img_area img{
+        width: 100%;
+    }
+    .C_logo .text_area{
+        width: 410px;
+        margin-top: 50px;
+        margin-left: 10.2%;
+        margin-bottom: 36px;
+    }
+    .C_logo .text_area span{
+        font-size: 16px;
+    }
+    .Ga_chi_wrap{
+        display: none;
+        margin: 0 auto;
+    }
+    .Ga_chi_wrap_m{
+        display: block;
+    }
+    .Ga_chi_wrap_m .Ga_chi_ul_d{
+        display: block;
+    }
+    .Ga_chi_wrap_m .Ga_chi_ul_d li:first-child{
+        margin-top: 70px;
+    }
+    .Ga_chi_wrap_m .Ga_t{
+        font-family: Pretendard;
+        font-size: 17px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    .Ga_chi .title {
+        font-family: S-CoreDream-6;
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        color: #000;
+        margin-bottom: 34px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Company {
+        width: 100%;
+        height: 172px;
+        background-image: url(/public/images/480_CEOT.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .CEO_NAME{
+        display: flex;
+        margin: 0 10.2%;
+        padding-top: 40px;
+    }
+    .C_960_img{
+        display: none;
+    }
+    .CEO_T{
+        margin-top: 0px;
+        padding: 3% 10.2%;
+        background-color: #fff;
+    }
+    .CEO_NAME h1{
+        font-size: 22px;
+    }
+    .CEO_NAME p{
+        margin-left: 13px;
+        line-height: 34px;
+        font-family: S-CoreDream6;
+        font-size: 13px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+    }
+    .C_team h1{
+        font-family: S-CoreDream-6;
+        font-size: 26px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        margin-bottom: 14px;
+    }
+    .C_team .text_area p{
+        box-sizing: border-box;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+        width: 300px;
+    }
+    .C_team .team_list .team_ul{
+        margin: 0 auto;
+        width: 100%;
+        justify-content:center;
+    }
+    .C_team .team_list .team_ul li{
+        width: 50%;
+        height: 160px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .C_team .team_list .team_ul li span{
+        font-size: 15px;
+    }
+    .C_team .team_list .team_ul li p{
+        font-size: 15px;
+    }
+    .C_logo .text_area{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 10.2%;
+        margin-bottom: 36px;
+    }
+    .C_logo .text_area h1 {
+        font-size: 22px;
+    }
+    .C_logo .text_area span{
+        font-size: 16px;
+    }
+    .C_logo .img_area{
+        width: 80%;
+        margin-top: 75px;
+        margin-bottom: 88px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
