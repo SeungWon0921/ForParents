@@ -321,7 +321,7 @@ color: #fff;
 .for_sec .for_area .for_area01 .bg_c{
     background-color: rgba(26, 36, 87, 0.4);
     width: 50%;
-    height: 100%;
+    height: 100vh;
     z-index: 100;
     position: absolute;
     padding-left: 5%;
@@ -367,7 +367,7 @@ color: #fff;
 .for_sec .for_area .for_area02 .for_area02-1 .bg_c{
     background-color: rgba(22, 15, 3, 0.4);
     width: 50%;
-    height: 50%;
+    height: 50vh;
     z-index: 100;
     position: absolute;
     padding-left: 5%;
@@ -411,7 +411,7 @@ color: #fff;
 .for_sec .for_area .for_area02 .for_area02-2 .bg_c{
     background-color: rgba(139, 90, 1, 0.5);
     width: 50%;
-    height: 50%;
+    height: 50vh;
     z-index: 100;
     position: absolute;
     padding-left: 5%;
@@ -520,7 +520,7 @@ color: #fff;
         border-radius: 19px;
         background-color: #ffb837;
         text-align: center;
-        line-height: 32px;
+        line-height: 36px;
     }
     .header .header_area .shin_btn span{
         font-family: Pretendard;

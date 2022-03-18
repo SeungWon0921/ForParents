@@ -12,5 +12,4 @@ export const SliderData2 = [
     {img: "images/Slider3.jpg", index:'1'},
     {img: "images/Slider4.jpg", index:'1'},
     {img: "images/Slider5.jpg", index:'1'},
-
 ]

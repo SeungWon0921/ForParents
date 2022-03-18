@@ -50,6 +50,7 @@ const MainContainer3 = () => {
 
     return(
         <div className="Wrap">
+            {/* header 시작 */}
             <header>
                 <div className="header">
                     <div className="header_area">
@@ -67,7 +68,10 @@ const MainContainer3 = () => {
                     </div>
                 </div>
             </header>
+            {/* 헤더 끝 */}
+            {/* 컨테이너 시작 */}
                 <div className="Container">
+                    {/* 스크롤 이벤트 섹션 시작 */}
                     <section id="scroll" className={scrollPosition < 0.1 ? "" : scrollPosition < 440 ? "fir_sec_fixed" : "fir_sec_absolute" }>
                         <div className="fir_sec">
                             <div className="bg">
@@ -89,6 +93,7 @@ const MainContainer3 = () => {
                         </ul>
                         </div>
                     </section>
+                    {/* 스크롤 이벤트 섹션 종료 */}
                     <section className="sec_sec">
                         <div className="txt_area">
                         <div className="sec_sec_title">
@@ -109,10 +114,16 @@ const MainContainer3 = () => {
                                     <div className="Slide_img_list">
                                     <li>
                                     <img src={item.img}/>
+                                    </li>
+                                    <li>
+                                    <img src={item.img}/>
                                     <a onClick={()=> window.open('http://naver.me/Fql4XzSx','_blank')}>
                                     <div className="shin_btn"><span>신청하기 →</span>
                                     </div>
                                     </a>
+                                    </li>
+                                    <li>
+                                    <img src={item.img}/>
                                     </li>
                                     </div>
                                 )}

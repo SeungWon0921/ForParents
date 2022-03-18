@@ -2,7 +2,7 @@
     import React from 'react';
 import { Link } from 'react-router-dom';
     import styled from 'styled-components';
-    import Burger from './Burger';
+import Burger from './Burger';
 
     const Nav = styled.nav`
     width: 100%;
