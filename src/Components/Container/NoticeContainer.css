@@ -1,0 +1,30 @@
+.Notice{
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+thead th:first-child{
+    width: 50px;
+}
+thead th:nth-child(2){
+    width: 300px;
+}
+th:nth-child(3){
+    width: 100px;
+}
+tr{
+    margin-top: 300px;
+
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border:1px solid black;
+    text-align: center;
+}
+
+.popup {
+    background-color: aqua;
+}

@@ -7,6 +7,8 @@ import { Route,Routes } from 'react-router-dom';
 import CompanyPage from './Pages/CompanyPage';
 import ServicePage from './Pages/ServicePage';
 import MainPage_en from './Pages/MainPage_en';
+import NoticePage from './Pages/NoticePage';
+import HelperPage from './Pages/HelperPage';
 
 function App() {
 
@@ -30,6 +32,8 @@ const useGAEventsTracker = (category = 'Event Category') => {
     <Route path={`${process.env.PUBLIC_URL}/`} element={<MainPage/>}></Route>
     <Route path={`${process.env.PUBLIC_URL}/company`} element = {<CompanyPage/>}></Route>
     <Route path={`${process.env.PUBLIC_URL}/service`} element = {<ServicePage/>}></Route>
+    <Route path={`${process.env.PUBLIC_URL}/notice`} element = {<NoticePage/>}></Route>
+    <Route path={`${process.env.PUBLIC_URL}/helper`} element = {<HelperPage/>}></Route>
     </Routes>
   );
 }

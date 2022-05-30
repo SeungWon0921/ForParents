@@ -113,17 +113,11 @@ const MainContainer3 = () => {
                                         {index === current && (
                                     <div className="Slide_img_list">
                                     <li>
-                                    <img src={item.img}/>
-                                    </li>
-                                    <li>
-                                    <img src={item.img}/>
+                                    <img key={index} src={item.img}/>
                                     <a onClick={()=> window.open('http://naver.me/Fql4XzSx','_blank')}>
                                     <div className="shin_btn"><span>신청하기 →</span>
                                     </div>
                                     </a>
-                                    </li>
-                                    <li>
-                                    <img src={item.img}/>
                                     </li>
                                     </div>
                                 )}

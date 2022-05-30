@@ -74,7 +74,7 @@
                     <li><Link to={"/"}><span>메인</span></Link></li>
                     <li><Link to={"/service"}><span>서비스</span></Link></li>
                     <li><Link to={"/company"}><span>포페런츠</span></Link></li>
-                    <li><Link to={"/company"}><span>트래블 헬퍼</span></Link></li>
+                    <li><Link to={"/helper"}><span>트래블 헬퍼</span></Link></li>
                     <li><a onClick={()=> window.open('http://naver.me/Fql4XzSx','_blank')}><span>신청서</span></a></li>
                     <li><a onClick={()=> window.open('https://pf.kakao.com/_KxdKxfb/chat','_blank')}><span>공지/문의</span></a></li>
         </Ul>
